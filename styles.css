@@ -11965,10 +11965,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.navbar-nav {
-  justify-content: space-between;
-}
-
 .text-justify {
   text-align: justify;
+}
+
+.nav-item {
+  width: 110px;
+  font-size: large;
+}
+
+.row {
+  margin-top: 150px;
 }/*# sourceMappingURL=styles.css.map */

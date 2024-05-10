@@ -1,9 +1,15 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
-.navbar-nav {
-    justify-content: space-between;
-}
 
 .text-justify {
     text-align: justify;
+}
+
+.nav-item {
+    width: 110px;
+    font-size: large;
+}
+
+.row {
+    margin-top: 150px;
 }
