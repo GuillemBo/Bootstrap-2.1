@@ -1,12 +1,6 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 
-
-$theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-);
-
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 
@@ -19,7 +13,7 @@ $theme-colors: (
     font-size: large;
 }
 
-.row {
+.mid-row {
     margin-top: 200px;
 
 }
@@ -46,4 +40,22 @@ $theme-colors: (
 .mid-btn {
     width: 170px;
     padding: 12px;
+}
+
+.right-void {
+    display: flex;
+    background-color: $primary;
+    align-items: end;
+    padding: 100px;
+    border-radius: 120px;
+    position: relative;
+
+}
+
+.horizontal-align {
+    display: inline-flex;
+}
+
+.margin-left {
+    margin-left: 30px;
 }
