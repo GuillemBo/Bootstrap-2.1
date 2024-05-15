@@ -11998,6 +11998,12 @@ textarea.form-control-lg {
   padding: 12px;
 }
 
+@media (max-width: 576px) {
+  .body-item {
+    display: flex;
+    justify-content: center;
+  }
+}
 .right-void {
   display: flex;
   background-color: #5265E1;
@@ -12030,10 +12036,6 @@ textarea.form-control-lg {
   position: relative;
 }
 
-.tb-main {
-  gap: 120px;
-}
-
 .custom-img-size {
   width: 120px; /* Define el ancho deseado */
   height: 120px; /* Mantén la proporción de la imagen */
@@ -12061,4 +12063,29 @@ textarea.form-control-lg {
   .custom-width {
     width: 50%;
   }
+}
+@media (min-width: 576px) {
+  .custom-nav {
+    width: 25%;
+  }
+}
+@media (max-width: 576px) {
+  .custom-nav {
+    border-bottom: 1px solid grey;
+    width: 100%; /* Ajustar el ancho del borde inferior */
+    margin: 0 auto; /* Centrar el borde inferior */
+  }
+}
+.custom-link {
+  color: black !important;
+  position: relative; /* Añadir posición relativa para el enlace */
+}
+
+.custom-link:hover {
+  border-bottom: 2px solid red !important;
+}
+
+.custom-border {
+  width: 80%; /* Ajustar el ancho del borde inferior */
+  margin: 0 auto; /* Centrar el borde inferior */
 }/*# sourceMappingURL=styles.css.map */

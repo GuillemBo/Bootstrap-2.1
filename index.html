@@ -65,9 +65,9 @@
           <a class="navbar-brand d-flex justify-content-center col-md-auto margin-left custom-margin-top" href="#">
             <img src="imagenes/illustration-hero.svg" class="img-fluid" alt="Logo bookmark">
           </a>
-          <div class="right-void align-bottom align-self-end col-lg-6 position-absolute bottom-0 start-100 translate-middle-x">
+          <!-- <div class="right-void align-bottom align-self-end col-lg-6 position-absolute bottom-0 start-100 translate-middle-x">
             
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -84,47 +84,109 @@
       </div>
     </div>
     
-    <div class="container">
 
-      <ul class="nav nav-underline justify-content-center mt-5 tb-main text-center">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Simple Bookmarking</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Speedy Searching</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Easy Sharing</a>
-        </li>
-      </ul>
-      
-    </div>
-    
+
     <div class="container mt-5">
-      <div class="row align-items-center d-flex justify-content-center">
-        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 horizontal-align img-main d-flex justify-content-center align-items-center">
-          <a class="navbar-brand d-flex justify-content-center col-md-auto margin-left" href="#">
-            <img src="imagenes/illustration-features-tab-1.svg" class="img-fluid" alt="ilustration">
-          </a>
-          <div class="left-void align-bottom col align-self-end col-lg-6 position-absolute bottom-0 start-0 translate-middle-x">
+      <div class="row">
+        <div class="col custom-border" role="tablist">
+
+          <ul class="nav nav-tabs nav-underline justify-content-center mt-5 text-center mb-5" id="myTab" role="tablist">
+            <li class="nav-item custom-nav" role="presentation">
+              <a class="nav-link active custom-link" id="Simple-tab" data-bs-toggle="tab" data-bs-target="#Simple-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Simple Bookmarking</a>
+            </li>
+            <li class="nav-item custom-nav">
+              <a class="nav-link custom-link" id="Speedy-tab" data-bs-toggle="tab" data-bs-target="#Speedy-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">Speedy Searching</a>
+            </li>
+            <li class="nav-item custom-nav">
+              <a class="nav-link custom-link" id="Easy-tab" data-bs-toggle="tab" data-bs-target="#Easy-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">Easy Sharing</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active " id="Simple-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+                  <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 horizontal-align img-main">
+                      <a class="navbar-brand" href="#">
+                        <img src="imagenes/illustration-features-tab-1.svg" class="img-fluid" alt="ilustration">
+                      </a>
+                      <!-- <div class="left-void align-bottom col align-self-end col-lg-6 position-absolute bottom-0 start-0 translate-middle-x">
+                        
+                      </div> -->
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                      <div class="custom-margin-top">
+                        <h2 class="display-4 texto-grueso">Bookmark in one click</h2>
+                      </div>
+                      <div class="inner-text">
+                        <p class="text-justify text-muted texto-mediano mt-5 text-wrap">organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                      </div>
+                      <div class="body-item">
+                        <a class="btn btn-primary mid-btn shadow" href="#" role="button">More info</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
             
-          </div>
-        </div>
-        
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
-          <div class="custom-margin-top">
-            <h2 class="display-4 texto-grueso">Bookmark in one click</h2>
-          </div>
-          <div class="inner-text">
-            <p class="text-justify text-muted texto-mediano mt-5 text-wrap">organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-          </div>
-          <div class="body-item">
-            <a class="btn btn-primary mid-btn shadow" href="#" role="button">More info</a>
+            <div class="tab-pane fade" id="Speedy-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 horizontal-align img-main">
+                  <a class="navbar-brand" href="#">
+                    <img src="imagenes/illustration-features-tab-2.svg" class="img-fluid" alt="ilustration">
+                  </a>
+                  <!-- <div class="left-void align-bottom col align-self-end col-lg-6 position-absolute bottom-0 start-0 translate-middle-x">
+                    
+                  </div> -->
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <div class="custom-margin-top">
+                    <h2 class="display-4 texto-grueso">Bookmark in one click</h2>
+                  </div>
+                  <div class="inner-text">
+                    <p class="text-justify text-muted texto-mediano mt-5 text-wrap">organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                  </div>
+                  <div class="body-item">
+                    <a class="btn btn-primary mid-btn shadow" href="#" role="button">More info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           
+            <div class="tab-pane fade" id="Easy-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 horizontal-align img-main">
+                  <a class="navbar-brand" href="#">
+                    <img src="imagenes/illustration-features-tab-3.svg" class="img-fluid" alt="ilustration">
+                  </a>
+                  <!-- <div class="left-void align-bottom col align-self-end col-lg-6 position-absolute bottom-0 start-0 translate-middle-x">
+                    
+                  </div> -->
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                  <div class="custom-margin-top">
+                    <h2 class="display-4 texto-grueso">Bookmark in one click</h2>
+                  </div>
+                  <div class="inner-text">
+                    <p class="text-justify text-muted texto-mediano mt-5 text-wrap">organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                  </div>
+                  <div class="body-item">
+                    <a class="btn btn-primary mid-btn shadow" href="#" role="button">More info</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
           </div>
         </div>
       </div>
+      
     </div>
-    
     
     
     <div class="container mt-5 d-flex justify-content-center">
@@ -240,6 +302,7 @@
     
   </div>
   
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
   </html>
