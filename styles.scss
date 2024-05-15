@@ -151,3 +151,18 @@ $secondary: #FA5959;
         width: 80%; /* Ajustar el ancho del borde inferior */
         margin: 0 auto; /* Centrar el borde inferior */
     }
+
+
+    .footer {
+        background-color: $primary;
+        padding: 120px;
+    }
+
+    .custom-form {
+        width: 100%px;
+    }
+  
+    .footer-text {
+        color: white;
+
+    }

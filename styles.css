@@ -12088,4 +12088,17 @@ textarea.form-control-lg {
 .custom-border {
   width: 80%; /* Ajustar el ancho del borde inferior */
   margin: 0 auto; /* Centrar el borde inferior */
+}
+
+.footer {
+  background-color: #5265E1;
+  padding: 120px;
+}
+
+.custom-form {
+  width: 100% px;
+}
+
+.footer-text {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */
