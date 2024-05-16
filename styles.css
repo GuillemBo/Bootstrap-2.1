@@ -11969,11 +11969,6 @@ textarea.form-control-lg {
   text-align: justify;
 }
 
-.nav-item {
-  width: 110px;
-  font-size: medium;
-}
-
 .mid-row {
   margin-top: 100px;
 }
@@ -12030,6 +12025,10 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .margin-left {
     margin-left: 40px;
+  }
+  .nav-item {
+    width: 110px;
+    font-size: medium;
   }
 }
 .img-main {
@@ -12096,9 +12095,41 @@ textarea.form-control-lg {
 }
 
 .custom-form {
-  width: 100% px;
+  display: flex;
+  justify-content: center;
+  width: 30%;
 }
 
 .footer-text {
   color: white;
+}
+
+@media (max-width: 576px) {
+  .custom-column-width {
+    width: 100%;
+  }
+  .custom-form {
+    width: 100%;
+  }
+  .custom-row {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+  .custom-btn-width {
+    width: 100%;
+  }
+  .custom-footer {
+    display: flex;
+    justify-content: center !important;
+  }
+  .icon-gap-custom {
+    margin-top: 20px;
+  }
+}
+.navbar-custom-footer {
+  color: #ffffff; /* Color personalizado */
+}
+
+.icon-gap-custom {
+  gap: 35px;
 }/*# sourceMappingURL=styles.css.map */

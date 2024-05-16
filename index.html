@@ -23,7 +23,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           
-          <div class="collapse navbar-collapse flex-grow-0 justify-content-center" id="navbarNav">
+          <div class="collapse navbar-collapse flex-grow-0 justify-content-center icon-gap-custom" id="navbarNav">
             
             <ul class="navbar-nav gap-4">
               <li class="nav-item">
@@ -305,27 +305,68 @@
 
 
     <div class="container-fluid footer">
-      <div class="row d-flex justify-content-center text-center">
-        <div class="mb-4 footer-text">
-          35,000 + ALREADY JOINED
-        </div>
-        <h2 class="mb-4 footer-text">
-          Stay Up-to-date with what we're doing
-        </h2>
-
-        <div class="col-auto">
-          <form>
-            <div class="mb-3 custom-form">
-              <input type="email" class="form-control" placeholder="Enter your email adress" id="validate1" aria-describedby="emailHelp">
+      <div class="row d-flex justify-content-center text-center custom-row">
+          <div class="mb-4 footer-text">
+            35,000 + ALREADY JOINED
+          </div>
+          <h2 class="mb-4 footer-text">
+            Stay Up-to-date with what we're doing
+          </h2>
+          
+          <form class="row g-3 needs-validation custom-form" novalidate>
+            <div class="col-8 custom-column-width">
+              <input type="email" class="form-control" placeholder="Enter your email adress" id="validate1" aria-describedby="emailHelp" required>
+              <div class="invalid-feedback">
+                Please provide a valid email.
+              </div>
             </div>
             
+            <div class="col-4 custom-column-width ">
+              <button type="submit" class="btn btn-danger custom-btn-width">Contact Us</button>
+            </div>
           </form>
         </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-danger">Contact Us</button>
-        </div>
+        <script src="main.js"></script>
       </div>
     </div>
+    
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark d-flex" >
+      <div class="container mt-5 d-flex custom-footer">
+
+          <ul class="navbar-nav gap-4 text-center">
+            <a class="navbar-brand d-flex justify-content-center align-items-center text-center" href="#">
+              
+              <img src="imagenes/logo-bookmark-white.svg" class="img-fluid" alt="Logo bookmark">
+              
+            </a>
+            <li class="nav-item">
+              <a class="nav-link navbar-custom-footer" aria-current="page" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-custom-footer" href="#">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar-custom-footer" href="#">CONTACT</a>
+            </li>
+          </ul>
+
+        
+        <div class="collapse navbar-collapse flex-grow-0 d-flex justify-content-center icon-gap-custom" id="navbarNav">
+          
+          <a class="navbar-brand d-flex justify-content-center align-items-center text-center" href="#">        
+            <img src="imagenes/icon-facebook.svg" class="img-fluid" alt="Logo bookmark">   
+          </a>
+          <a class="navbar-brand d-flex justify-content-center align-items-center text-center" href="#">        
+            <img src="imagenes/icon-twitter.svg" class="img-fluid" alt="Logo bookmark">   
+          </a>
+         
+        </div>
+    </nav>
+
+
+
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
