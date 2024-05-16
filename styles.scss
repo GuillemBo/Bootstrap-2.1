@@ -51,8 +51,8 @@ $secondary: #FA5959;
     display: flex;
     background-color: $primary;
     align-items: end;
-    padding: 100px;
-    border-radius: 120px;
+    padding: 20%;
+    border-radius: 40%;
     z-index: -1;
     height: 20px; /* Altura de la barra */
 
@@ -138,7 +138,7 @@ $secondary: #FA5959;
 
     
     .custom-link {
-        color: black !important;
+        color: rgb(0, 0, 0) !important;
         position: relative; /* Añadir posición relativa para el enlace */
     }
   
@@ -203,5 +203,36 @@ $secondary: #FA5959;
         gap: 35px;
     }
 
-    
+        .nav-hover:hover {
+            color: red !important;
+            
+        }
+
+        .nav-hover-login:hover {
+            color: red;
+            background-color: rgb(255, 255, 255) !important;
+            border-color: red !important;
+        }
+
+        .nav-hover-card2:hover {
+            color: black !important;
+            background-color: rgb(255, 255, 255) !important;
+            border-color: black !important;
+        }
+        .nav-hover-card:hover {
+            color: $primary;
+            background-color: rgb(255, 255, 255) !important;
+            border-color: $primary !important;
+        }
+
+
+        .img-hover:hover {
+            background-color: red
+        }
+
+
+        .color-change:hover {
+            filter: sepia(1) saturate(10000%) hue-rotate(180deg);
+        }
+
 
