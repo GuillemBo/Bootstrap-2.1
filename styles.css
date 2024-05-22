@@ -12008,10 +12008,9 @@ textarea.form-control-lg {
     z-index: -1;
     content: "";
     top: 70%;
-    left: 86%;
-    width: 115%;
+    left: 67%;
+    width: 80%;
     transform: translate(-50%, -50%);
-    overflow-x: hidden;
   }
   .left-void {
     display: flex;
@@ -12021,10 +12020,9 @@ textarea.form-control-lg {
     z-index: -1;
     content: "";
     top: 68%;
-    right: -35%;
-    width: 125%;
+    right: -15%;
+    width: 100%;
     transform: translate(-50%, -50%);
-    overflow-x: hidden;
   }
 }
 @media (max-width: 576px) {
@@ -12035,9 +12033,8 @@ textarea.form-control-lg {
     z-index: -1;
     top: 70%;
     left: 65%;
-    width: 75%;
+    width: 70%;
     transform: translate(-50%, -50%);
-    overflow-x: hidden;
   }
   .left-void {
     display: flex;
@@ -12047,10 +12044,9 @@ textarea.form-control-lg {
     z-index: -1;
     content: "";
     top: 70%;
-    right: -45%;
-    width: 100%;
+    right: 0%;
+    width: 70%;
     transform: translate(-50%, -50%);
-    overflow-x: hidden;
   }
   .img-main {
     margin-top: 35px;
